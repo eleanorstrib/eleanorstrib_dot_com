@@ -18,11 +18,11 @@ body {
   color: #c016d8;
 }
 p {
-  font-size: 14px;
+  font-size: 1.05em;
   line-height: 1.75;
 }
 p.large {
-  font-size: 16px;
+  font-size: 1.75em;
 }
 a,
 a:hover,
@@ -40,14 +40,19 @@ a:active,
 a.active {
   color: #820f93;
 }
+
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h4 {
   font-family:  "Elsie", Helvetica, Arial, sans-serif;
   text-transform: lowercase;
+  font-weight: 700;
+}
+
+h3,
+h5,
+h6 {
+  font-family:  "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 .img-centered {
@@ -155,8 +160,10 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #820f93;
-  font-family:  "Elsie", "Helvetica Neue", Helvetica, Arial, cursive;
+  color: #c016d8;
+  font-family:  "Elsie", "Helvetica Neue", Helvetica, Arial;
+  padding: 20px 20px;
+  height: 50px;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -170,7 +177,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-toggle {
   background-color: #c016d8;
   border-color: #c016d8;
-  font-family: "Elsie", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Elsie", Helvetica, Arial, sans-serif;
   color: white;
   font-size: 1.2em;
 }
@@ -183,7 +190,7 @@ fieldset[disabled] .btn-xl.active {
   font-weight: 400;
   letter-spacing: 2px;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
@@ -210,7 +217,7 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-custom .navbar-brand {
-    font-size: 2.1em;
+    font-size: 2.75em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -225,7 +232,7 @@ fieldset[disabled] .btn-xl.active {
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
-    font-size: 1.75em;
+    font-size: 2.25em;
     color: #c016d8 !important;
   }
 }
@@ -357,9 +364,9 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Elsie", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 16px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-style: bolder;
+  font-size: 14px;
   margin: 0;
 }
 #portfolio * {
@@ -680,8 +687,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Elsie", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
 .portfolio-modal .modal-content ul.list-inline {
