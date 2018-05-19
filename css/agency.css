@@ -312,17 +312,17 @@ section h3.section-subheading {
   margin: 15px 0;
   text-transform: none;
 }
-#portfolio .portfolio-item {
+#project .project-item {
   margin: 0 0 15px;
   right: 0;
 }
-#portfolio .portfolio-item .portfolio-link {
+#project .project-item .project-link {
   display: block;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#project .project-item .project-link .project-hover {
   background: rgba(130, 15, 147, 0.85);
   position: absolute;
   width: 100%;
@@ -332,10 +332,10 @@ section h3.section-subheading {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#project .project-item .project-link .project-hover:hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#project .project-item .project-link .project-hover .project-hover-content {
   position: absolute;
   width: 100%;
   height: 20px;
@@ -345,35 +345,35 @@ section h3.section-subheading {
   margin-top: -12px;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#project .project-item .project-link .project-hover .project-hover-content i {
   margin-top: -12px;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#project .project-item .project-link .project-hover .project-hover-content h3,
+#project .project-item .project-link .project-hover .project-hover-content h4 {
   margin: 0;
 }
-#portfolio .portfolio-item .portfolio-caption {
+#project .project-item .project-caption {
   max-width: 400px;
   margin: 0 auto;
   background-color: white;
   text-align: center;
   padding: 25px;
 }
-#portfolio .portfolio-item .portfolio-caption h4 {
+#project .project-item .project-caption h4 {
   text-transform: none;
   margin: 0;
 }
-#portfolio .portfolio-item .portfolio-caption p {
+#project .project-item .project-caption p {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-style: bolder;
   font-size: 14px;
   margin: 0;
 }
-#portfolio * {
+#project * {
   z-index: 2;
 }
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  #project .project-item {
     margin: 0 0 30px;
   }
 }
@@ -663,12 +663,12 @@ ul.social-buttons li a:active {
 .btn:active:focus {
   outline: none;
 }
-.portfolio-modal .modal-dialog {
+.project-modal .modal-dialog {
   margin: 0;
   height: 100%;
   width: auto;
 }
-.portfolio-modal .modal-content {
+.project-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
   -webkit-box-shadow: none;
@@ -678,26 +678,26 @@ ul.social-buttons li a:active {
   padding: 100px 0;
   text-align: center;
 }
-.portfolio-modal .modal-content h2 {
+.project-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em;
 }
-.portfolio-modal .modal-content p {
+.project-modal .modal-content p {
   margin-bottom: 30px;
 }
-.portfolio-modal .modal-content p.item-intro {
+.project-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
-.portfolio-modal .modal-content ul.list-inline {
+.project-modal .modal-content ul.list-inline {
   margin-bottom: 30px;
   margin-top: 0;
 }
-.portfolio-modal .modal-content img {
+.project-modal .modal-content img {
   margin-bottom: 30px;
 }
-.portfolio-modal .close-modal {
+.project-modal .close-modal {
   position: absolute;
   width: 75px;
   height: 75px;
@@ -706,10 +706,10 @@ ul.social-buttons li a:active {
   right: 25px;
   cursor: pointer;
 }
-.portfolio-modal .close-modal:hover {
+.project-modal .close-modal:hover {
   opacity: 0.3;
 }
-.portfolio-modal .close-modal .lr {
+.project-modal .close-modal .lr {
   height: 75px;
   width: 1px;
   margin-left: 35px;
@@ -721,7 +721,7 @@ ul.social-buttons li a:active {
   /* Safari and Chrome */
   z-index: 1051;
 }
-.portfolio-modal .close-modal .lr .rl {
+.project-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
   background-color: #222222;
@@ -732,7 +732,7 @@ ul.social-buttons li a:active {
   /* Safari and Chrome */
   z-index: 1052;
 }
-.portfolio-modal .modal-backdrop {
+.project-modal .modal-backdrop {
   opacity: 0;
   display: none;
 }
